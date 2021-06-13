@@ -1,0 +1,4 @@
+language: swift
+osx_image: xcode12.4
+script: xcodebuild clean build test -project AppLaunch.xcodeproj -scheme AppLaunch -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=14.4'
+
