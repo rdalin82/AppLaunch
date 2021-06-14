@@ -18,6 +18,11 @@
 		1F93FE912676379C006E59A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F93FE902676379C006E59A3 /* main.swift */; };
 		1FDB3EB526765FFE00ABB316 /* StoryboardBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB3EB426765FFE00ABB316 /* StoryboardBasedViewController.swift */; };
 		1FDB3EB72676619800ABB316 /* StoryboardBasedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB3EB62676619800ABB316 /* StoryboardBasedViewControllerTests.swift */; };
+		1FDB3EBE2676E56500ABB316 /* XIBBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB3EBC2676E56500ABB316 /* XIBBasedViewController.swift */; };
+		1FDB3EBF2676E56500ABB316 /* XIBBasedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FDB3EBD2676E56500ABB316 /* XIBBasedViewController.xib */; };
+		1FDB3EC12676E76E00ABB316 /* XIBBasedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB3EC02676E76E00ABB316 /* XIBBasedViewControllerTests.swift */; };
+		1FDB3EC32676E7F200ABB316 /* CodeBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB3EC22676E7F200ABB316 /* CodeBasedViewController.swift */; };
+		1FDB3EC52676E83F00ABB316 /* CodeBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB3EC42676E83F00ABB316 /* CodeBaseViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		1F93FE902676379C006E59A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FDB3EB426765FFE00ABB316 /* StoryboardBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewController.swift; sourceTree = "<group>"; };
 		1FDB3EB62676619800ABB316 /* StoryboardBasedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewControllerTests.swift; sourceTree = "<group>"; };
+		1FDB3EBC2676E56500ABB316 /* XIBBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBBasedViewController.swift; sourceTree = "<group>"; };
+		1FDB3EBD2676E56500ABB316 /* XIBBasedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBBasedViewController.xib; sourceTree = "<group>"; };
+		1FDB3EC02676E76E00ABB316 /* XIBBasedViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XIBBasedViewControllerTests.swift; sourceTree = "<group>"; };
+		1FDB3EC22676E7F200ABB316 /* CodeBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBasedViewController.swift; sourceTree = "<group>"; };
+		1FDB3EC42676E83F00ABB316 /* CodeBaseViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeBaseViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,9 @@
 				1F93FE902676379C006E59A3 /* main.swift */,
 				1F93FE642676359A006E59A3 /* Main.storyboard */,
 				1FDB3EB426765FFE00ABB316 /* StoryboardBasedViewController.swift */,
+				1FDB3EBC2676E56500ABB316 /* XIBBasedViewController.swift */,
+				1FDB3EBD2676E56500ABB316 /* XIBBasedViewController.xib */,
+				1FDB3EC22676E7F200ABB316 /* CodeBasedViewController.swift */,
 			);
 			path = AppLaunch;
 			sourceTree = "<group>";
@@ -107,6 +120,8 @@
 				1F93FE772676359C006E59A3 /* Info.plist */,
 				1F93FE8E2676372B006E59A3 /* TestingAppDelegate.swift */,
 				1FDB3EB62676619800ABB316 /* StoryboardBasedViewControllerTests.swift */,
+				1FDB3EC02676E76E00ABB316 /* XIBBasedViewControllerTests.swift */,
+				1FDB3EC42676E83F00ABB316 /* CodeBaseViewControllerTests.swift */,
 			);
 			path = AppLaunchTests;
 			sourceTree = "<group>";
@@ -191,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDB3EBF2676E56500ABB316 /* XIBBasedViewController.xib in Resources */,
 				1F93FE6B2676359B006E59A3 /* LaunchScreen.storyboard in Resources */,
 				1F93FE682676359B006E59A3 /* Assets.xcassets in Resources */,
 				1F93FE662676359A006E59A3 /* Main.storyboard in Resources */,
@@ -211,7 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDB3EBE2676E56500ABB316 /* XIBBasedViewController.swift in Sources */,
 				1F93FE632676359A006E59A3 /* ViewController.swift in Sources */,
+				1FDB3EC32676E7F200ABB316 /* CodeBasedViewController.swift in Sources */,
 				1F93FE5F2676359A006E59A3 /* AppDelegate.swift in Sources */,
 				1F93FE912676379C006E59A3 /* main.swift in Sources */,
 				1FDB3EB526765FFE00ABB316 /* StoryboardBasedViewController.swift in Sources */,
@@ -223,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDB3EC52676E83F00ABB316 /* CodeBaseViewControllerTests.swift in Sources */,
+				1FDB3EC12676E76E00ABB316 /* XIBBasedViewControllerTests.swift in Sources */,
 				1F93FE8F2676372B006E59A3 /* TestingAppDelegate.swift in Sources */,
 				1F93FE762676359C006E59A3 /* AppLaunchTests.swift in Sources */,
 				1FDB3EB72676619800ABB316 /* StoryboardBasedViewControllerTests.swift in Sources */,
